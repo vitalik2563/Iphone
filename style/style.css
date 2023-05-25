@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+section {padding: 1% 0;}
+
+div.wrapper { padding: 1% 0; }
+
+div.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1%;
+    overflow: hidden;
+}
+
+/* настройка шапки */
+header .wrapper{
+    background-color: #0A0A0A;
+}
+
+header .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.content .logo img{ 
+    height: 47px; 
+}
+
+.content nav {
+    color: #717171;
+    font-size: 16pt;
+}
+
+.content nav a{
+    text-decoration: none;
+    color: #717171;
+    padding-left: 30px;
+}
+
+.content nav a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Оформление блока Баннер */
+section.banner {
+    min-height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-color: #F5F5F7;
+}
+
+section.banner div.wrapper h1{
+    font-size: 48pt;
+    color: #490E84;
+    margin-bottom: 40px;
+}
+
+section.banner div.wrapper button{
+    width: 350px;
+    height: 70px;
+    background-color: #490E84;
+    border-radius: 30px;
+    color: #ffffff;
+    border: 5px solid #490E84;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+section.banner div.wrapper button:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #490E84;
+    border: 5px solid #490E84;
+    transition: 0.3s;
+}
+
+/* Новости */
+div.wrapper h2{
+    font-size: 32pt;
+    color: #717171;
+    margin-bottom: 50px;
+}
+
+section.iph div.text{
+    width: 560px;
+}
+
+section.iph div.text p{
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 14pt;
+}
+
+section.iph div.text p.description{
+    font-weight: bold;
+}
+
+section.iph div.line{
+    display: flex;
+    align-items: center;
+}
+
+section.iph div.img{
+    margin-left: 191px;
+}
+
+/* выбери цвет */
+section.color div.flex_box{
+    display: flex;
+    justify-content: space-between;
+}
+
+section.color div.flex_box h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* заявка */
+section.iph14 div.iphone{
+    max-height: 600px;
+}
+
+section.iph14 div.form{
+    background-color: #574B63;
+    width: 600px;
+    height: 600px;
+}
+
+section.iph14 div.form h2{
+    color: #ffffff;
+    padding-top: 137px;
+    padding-bottom: 72px;
+    font-size: 32px;
+}
+
+section.iph14{
+    padding-bottom: 0;
+    padding-top: 0;
+    margin: 0;
+}
+
+div.content1, div.wrapper1{
+    padding-bottom: 0;
+}
+
+section.iph14 div.form input{
+    background-color: #574B63;
+    display: grid;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    width: 400px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+section.iph14 div.form input[placeholder]{
+    color: #F5F5F5;
+    padding-bottom: 5px;
+}
+
+section.iph14 div.form p{
+    color: #F5F5F5;
+    opacity: 50%;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+section.iph14 div.form button{
+    width: 240px;
+    height: 50px;
+    border-radius: 30px;
+    border: 0px;
+    font-size: 14px;
+    color: #490E84;
+    font-weight: bold;
+}
+
+section.iph14 div.form button:hover{
+    cursor: pointer;
+    background-color: #490E84;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+section.iph14 div.iphone{
+    display: flex;
+}
+
+/* футер */
+footer .wrapper{
+    background-color: #0A0A0A;
+}
+
+footer div.fot{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+}
+
+footer div.fot div.p{
+    color: #F5F5F5;
+    opacity: 50%;
+}
+
+footer div.fot div.logo{
+    margin-right: 123px;
+}
+
+footer div.fot{
+    margin-top: 0;
+    padding-top: 0;
+}
+
